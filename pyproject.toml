@@ -6,5 +6,6 @@ requires-python = ">=3.12, <3.13"
 
 [tool.uv.workspace]
 members = [
-    "theory",
+#    "theory",
+    "assignment1-basics"
 ]
