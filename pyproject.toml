@@ -3,9 +3,16 @@ name = "language-modeling"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.12, <3.13"
+dependencies = []
 
 [tool.uv.workspace]
 members = [
 #    "theory",
     "assignment1-basics"
+]
+
+[dependency-groups]
+dev = [
+    "scalene>=2.0.1",
+    "snakeviz>=2.2.2",
 ]
